@@ -49,6 +49,8 @@ int main() {
                     double lat = parseDouble(j[0], "lat");
                     double lon = parseDouble(j[0], "lon");
 
+                    //std::cout << "Raw JSON response: " << readBuffer << std::endl;
+
                     std::cout << "Latitude: " << lat << ", Longitude: " << lon << std::endl;
 
                     MapRenderer renderer;
